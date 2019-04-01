@@ -1,0 +1,357 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/um_background"
+    android:orientation="vertical"
+    tools:context="com.yunmi.fan.activity.MainActivity">
+
+    <!--Title Bar-->
+    <FrameLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/title_bar_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center_vertical"
+            android:contentDescription="@null"
+            android:paddingLeft="@dimen/std_titlebar_margin_left_right"
+            android:paddingRight="@dimen/std_titlebar_margin_left_right"
+            android:scaleType="center"
+            android:src="@drawable/std_tittlebar_main_device_back_white" />
+
+        <TextView
+            android:id="@+id/title_bar_title"
+            style="@style/std_word_001_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/titlebar_return_area_size"
+            android:layout_marginRight="@dimen/titlebar_return_area_size"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/title_bar_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_marginEnd="@dimen/std_titlebar_redpoint_margin_right"
+            android:layout_marginRight="@dimen/std_titlebar_redpoint_margin_right"
+            android:layout_marginTop="@dimen/std_titlebar_redpoint_margin_top"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/std_tittlebar_main_device_massage_point"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/title_bar_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|center_vertical"
+            android:contentDescription="@null"
+            android:paddingLeft="@dimen/std_titlebar_margin_left_right"
+            android:paddingRight="@dimen/std_titlebar_margin_left_right"
+            android:scaleType="center"
+            android:src="@drawable/std_tittlebar_main_device_more_white" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/room_temp_part"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title_bar"
+        android:layout_marginTop="80dp">
+
+      <!--  <com.yunmi.fan.view.TempCircle
+            android:id="@+id/temp_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />-->
+
+        <TextView
+            android:id="@+id/room_temp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/um_temp_default"
+            android:textColor="@android:color/white"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/room_temp_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/room_temp_text"
+            android:layout_toEndOf="@+id/room_temp_text"
+            android:layout_toRightOf="@+id/room_temp_text"
+            android:paddingTop="5dp"
+            android:text="@string/um_temp_unit"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/diaplay_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/room_temp_text"
+            android:layout_centerHorizontal="true"
+            android:paddingEnd="0dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="0dp"
+            android:paddingStart="6dp"
+            android:text="@string/um_room_temp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/error_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_bg_red"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@color/color_text_red"
+        android:textSize="@dimen/font_size_13sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/begin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/power_on"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ym_button_power_blue1" />
+
+        <com.yunmi.fan.view.PowerView
+            android:id="@+id/power_on_view"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ym_button_power_white"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="开关" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/power_after"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/font_size_17sp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/timing_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <!--<com.yunmi.fan.view.UMFanSpeedView
+            android:id="@+id/fan_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />-->
+
+        <include layout="@layout/um_fan_speed_setting" />
+
+        <LinearLayout
+            android:id="@+id/many_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/font_size_6">
+
+            <ImageView
+                android:id="@+id/power_off"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_power_blue"
+                android:visibility="visible" />
+
+            <com.yunmi.fan.view.PowerView
+                android:id="@+id/power_off_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_power_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/shake_on"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_shake_white" />
+
+            <com.yunmi.fan.view.ShakeView
+                android:id="@+id/shake_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_shake_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/shake_off"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_shake_blue"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/wind_standard"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_model_standard_blue" />
+
+            <com.yunmi.fan.view.WindStandardView
+                android:id="@+id/wind_standard_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_model_standard_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/wind_nature"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_model_nature_blue"
+                android:visibility="gone" />
+
+            <com.yunmi.fan.view.WindNatureView
+                android:id="@+id/wind_nature_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_model_nature_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/wind_ai"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_model_ai_blue"
+                android:visibility="gone" />
+
+            <com.yunmi.fan.view.WindAIView
+                android:id="@+id/wind_ai_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_model_ai_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/time_on"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_timer_white" />
+
+            <com.yunmi.fan.view.WorkTimeView
+                android:id="@+id/time_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_timer_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/time_off"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ym_button_timer_blue"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="开关" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="摇头" />
+
+            <TextView
+                android:id="@+id/wind_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="标准风" />
+
+            <TextView
+                android:id="@+id/timer_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="定时" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

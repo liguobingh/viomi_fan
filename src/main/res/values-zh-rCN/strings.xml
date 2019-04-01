@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="um_title">云米智能即热饮水吧（MINI）</string>
+
+    <string name="um_temp_default">00</string>
+    <string name="um_temp_unit">℃</string>
+    <string name="um_room_temp">连接中，请稍后</string>
+
+    <string name="um_setting_success">设置成功</string>
+    <string name="um_setting_fail">设置失败</string>
+    <string name="um_device_offline">设备未连接</string>
+    <string name="um_device_network_unavailable">获取数据失败，请检查网络连接</string>
+
+    <string name="um_error_value">error</string>
+
+    <!--上方提示框显示内容-->
+    <string name="um_standard_wind">风扇模式\u0020|\u0020标准风</string>
+    <string name="um_natural_wind">风扇模式\u0020|\u0020自然风</string>
+    <string name="um_smart_wind">风扇模式\u0020|\u0020智能风</string>
+    <string name="power_off">已关机</string>
+    <string name="power_on">已开机</string>
+    <string name="room_clod">室内温度较冷</string>
+    <string name="room_comfortable">室内舒适宜人</string>
+    <string name="room_warm">室内暖和</string>
+    <string name="room_hot">室内体感炎热</string>
+
+    <!--下方按钮显示-->
+    <string name="standard_wind">标准风</string>
+    <string name="natural_wind">自然风</string>
+    <string name="smart_wind">AI智能风</string>
+    <string name="text_hour_uint">小时</string>
+
+</resources>

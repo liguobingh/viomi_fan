@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="um_title">VIOMI The Internet Dc Frequency Conversion Fan</string>
+    <string name="app_name">yunmi_fengshan</string>
+    <string name="um_fan_speed_setting">fan speed</string>
+
+    <string name="um_standard_wind">wind mode.</string>
+    <string name="um_natural_wind">wind mode.</string>
+    <string name="um_smart_wind">wind mode.</string>
+    <string name="power_off">power off</string>
+    <string name="room_clod">room clod</string>
+    <string name="room_comfortable">room comfortable</string>
+    <string name="room_warm">room warm</string>
+    <string name="room_hot">room hot</string>
+
+    <string name="um_device_offline">device not connected</string>
+    <string name="um_setting_success">setting success</string>
+    <string name="um_setting_fail">setting fail</string>
+
+    <string name="um_temp_default">00</string>
+    <string name="um_temp_unit">℃</string>
+    <string name="um_room_temp">连接中，请稍后</string>
+
+    <string name="juicer_rev">测试案例</string>
+    <string name="juicer_du">测试案例第二个</string>
+
+</resources>

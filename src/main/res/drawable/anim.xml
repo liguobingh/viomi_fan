@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@mipmap/ym_fan_animate0"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate1"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate2"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate3"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate4"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate5"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate6"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate7"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate8"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate9"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate10"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate11"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate12"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate13"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate14"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate15"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate16"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate17"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate18"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate19"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate20"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate21"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate22"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate23"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate24"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate25"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate26"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate27"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate28"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate29"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate30"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate31"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate32"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate33"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate34"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate35"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate36"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate37"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate38"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate39"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate40"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate41"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate42"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate43"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate44"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate45"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate46"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate47"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate48"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate49"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate50"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate51"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate52"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate53"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate54"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate55"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate56"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate57"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate58"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate59"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate60"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate61"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate62"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate63"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate64"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate65"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate66"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate67"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate68"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate69"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate70"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate71"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate72"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate73"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate74"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate75"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate76"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate77"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate78"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate79"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate80"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate81"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate82"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate83"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate84"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate85"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate86"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate87"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate88"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate89"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate90"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate91"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate92"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate93"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate94"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate95"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate96"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate97"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate98"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate99"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate100"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate101"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate102"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate103"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate104"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate105"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate106"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate107"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate108"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate109"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate110"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate111"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate112"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate113"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate114"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate115"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate116"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate117"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate118"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate119"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate120"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate121"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate122"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate123"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate124"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate125"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate126"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate127"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate128"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate129"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate130"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate131"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate132"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate133"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate134"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate135"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate136"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate137"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate138"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate139"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate140"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate141"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate142"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate143"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate144"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate145"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate146"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ym_fan_animate147"
+        android:duration="200" />
+
+</animation-list>

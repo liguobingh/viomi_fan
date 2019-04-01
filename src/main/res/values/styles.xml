@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="error_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:autoLink">phone</item>
+        <item name="android:lineSpacingExtra">8dp</item>
+        <item name="android:textColor">@color/color_text_black</item>
+    </style>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TitleStyle">
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:textSize">@dimen/activity_title_size</item>
+    </style>-->
+
+    <!--
+    android:windowFrame:界面对应的前景图片；
+    android:background:背景图片
+    android:windowIsFloating:表示浮在屏幕上的，如果在这里使用了，整个layout就会在 屏幕中心，相当于浮在屏幕上，所以这个只适用于dialog
+    android:windowContentOverlay:表示标题栏的阴影部分的样式，使用图片或者颜色
+    android:windowNoTitle:标题栏是否隐藏
+    -->
+    <style name="timerdialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:background">@drawable/shape_dialog_bcg</item>-->
+    </style>
+
+</resources>
